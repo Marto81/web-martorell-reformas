@@ -9,6 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/web-martorell-reformas/',
   server: {
     port: 5173,
   },
